@@ -1,5 +1,6 @@
 body {
     max-height: 100vh;
+    margin: 0; 
 }
 
 .up-section { 
@@ -8,25 +9,52 @@ body {
     height: 50px; 
 }
 
+/* NAV Bar */
 .nav {
-    border: 1px dashed black; 
-    text-align: center;
+    background-color: black;
+    display: flex; 
+    justify-content: center;
+    /* border: 1px dashed black;  */
+    /* text-align: center; */
     height: 30px; 
+}
+/* NAV BUTTON GROUPP */
+.nav-buttons-group {
+    width: 450px;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+    display: flex; 
+    justify-content: space-around;
+    color: white; 
+    display: inline-block;
+}
+
+
+li:hover {
+    display: flex; 
+    justify-content: space-around;
+    color: white; 
+    display: inline-block;
+    font-size: 20px;
 }
 
 .hero {
-    border: 1px dashed black; 
+    background-image: url('https://png.pngtree.com/background/20210710/original/pngtree-blue-digital-technology-electronic-banner-picture-image_1033187.jpg'); 
     text-align: center;
     height: 180px; 
 }
 
 .main-section {
-    border: 1px dashed black; 
     text-align: center;
-    height: 110px; 
+    height: 100%; 
 }
 
 .footer {
+    background-color: lightgray;
     border: 1px dashed black; 
     text-align: center;
     height: 20px; 
